@@ -1,4 +1,37 @@
                 /* RESET */
+:root {
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+    --fs-300: 0.812rem;
+    --fs-400: 0.875rem;
+    --fs-500: 1rem;
+    --fs-600: 1.87rem;
+    --fs-700: 2.5rem;
+    --fs-800: 3.5rem;
+
+    --fs-body: var(--fs-400);
+    --fs-primary-heading: var(--fs-700);
+    --fs-secondary-heading: var(--fs-600);
+    --fs-nav: var(--fs-500);
+    --fs-button: var(--fs-300);
+}
+
+@media (min-width: 50em){
+    :root{
+        --fs-body: var(--fs-500);
+        --fs-primary-heading: var(--fs-800);
+        --fs-secondary-heading: var(--fs-700);
+        --fs-nav: var(--fs-300);
+    }
+}
+
+
+
+
+
+
+
 
 /*
   1. Use a more-intuitive box-sizing model.
@@ -71,5 +104,12 @@
 
                 /* INIT PAGE */
 .initial_page_container{
+    --max-width: 69.375rem;
+    --padding: 1rem;
+    width: min(var(--max-width), 100% - (var(--padding) * 2));
+    margin-inline: auto;
+
     background-image: linear-gradient(to right bottom, rgb(61, 252, 255), rgb(217, 0, 217));
+    font-size: var(--fs-body);
+    font-family: var(--ff-body);
 }
