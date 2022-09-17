@@ -113,6 +113,48 @@
     font-size: var(--fs-body);
     font-family: var(--ff-body);
 }
+.nav_container{
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    background-color: bisque;
+}
+.slider{
+    height: 15.62rem;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background-color: blue;
+}
+
+
+
+
+
+.slide-track{
+                        /* FIX THIS!!! NOT WANTING TO SHOW FOR SOME REASON */
+    width: 500px;
+    display: flex;
+    height: 300px;
+    width: calc(250px * 18);
+    background-color: yellow;
+}
+
+
+
+
+
 .slide{
-    
+    height: 12.5rem;
+    width: 15.62rem;
+    display: flex;
+    align-items: center;
+    padding: .93rem;
+    background-color: aquamarine;
+}
+img{
+    width: 100%;
 }
