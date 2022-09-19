@@ -119,7 +119,7 @@
     place-items: center;
     background-color: bisque;
 }
-.slider{
+/* .slider{
     height: 15.62rem;
     margin: auto;
     position: relative;
@@ -129,13 +129,12 @@
     overflow: hidden;
     background-color: blue;
 }
+ */
 
-
-
-
-
+ 
+/* FIX THIS!!! NOT WANTING TO SHOW FOR SOME REASON */
+/* 
 .slide-track{
-                        /* FIX THIS!!! NOT WANTING TO SHOW FOR SOME REASON */
     width: 500px;
     display: flex;
     height: 300px;
@@ -157,4 +156,4 @@
 }
 img{
     width: 100%;
-}
+} */
