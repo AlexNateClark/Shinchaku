@@ -119,41 +119,13 @@
     place-items: center;
     background-color: bisque;
 }
-/* .slider{
-    height: 15.62rem;
-    margin: auto;
-    position: relative;
-    width: 90%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
-    background-color: blue;
+
+.slide_wrapper{
+  position: relative;
+  height: 250px;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
 }
- */
-
- 
-/* FIX THIS!!! NOT WANTING TO SHOW FOR SOME REASON */
-/* 
-.slide-track{
-    width: 500px;
-    display: flex;
-    height: 300px;
-    width: calc(250px * 18);
-    background-color: yellow;
-}
-
-
-
-
-
-.slide{
-    height: 12.5rem;
-    width: 15.62rem;
-    display: flex;
-    align-items: center;
-    padding: .93rem;
-    background-color: aquamarine;
-}
-img{
-    width: 100%;
-} */
