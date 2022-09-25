@@ -129,3 +129,18 @@
   place-items: center;
   overflow: hidden;
 }
+.slider_track{
+  display: flex;
+  width: calc(250*6);
+
+}
+.slide{
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  overflow: hidden;
+  perspective: 100px;
+  cursor: pointer;
+}
