@@ -178,3 +178,23 @@
   left: 0;
   top: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.random_shape{
+  
+  width: 30rem;
+  height: 20rem;
+  background-color: blueviolet;
+  clip-path: circle(50% at 50% 50%);
+}
