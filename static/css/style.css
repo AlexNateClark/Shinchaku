@@ -193,8 +193,12 @@
 
 .random_shape{
   
-  width: 30rem;
+  width: 20rem;
   height: 20rem;
   background-color: blueviolet;
-  clip-path: circle(50% at 50% 50%);
+  border-radius: 20px;
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  box-shadow: 6px 0px 2px 2px rgb(90, 28, 147),
+  inset 0 -10px 0 rgb(162, 68, 250);
 }
