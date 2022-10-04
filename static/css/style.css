@@ -201,4 +201,7 @@
   border-bottom-right-radius: 160px;
   box-shadow: 6px 0px 2px 2px rgb(90, 28, 147),
   inset 0 -10px 0 rgb(162, 68, 250);
+  transform: rotate(45deg);
+  margin-left: 480px;
+  margin-top: -80px;
 }
