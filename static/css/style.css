@@ -153,8 +153,8 @@
 }
 .slide img{
   background-color: blueviolet;
-  max-width: 100%;
-  min-height: 100%;
+  max-width: 80px;
+  min-height: 100px;
   object-fit: cover;
 }
 
