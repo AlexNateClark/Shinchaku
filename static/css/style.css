@@ -93,11 +93,6 @@
     isolation: isolate;
   }
                 /* END RESET */
-  
-  
-  
-    
-
 
 
 
@@ -162,9 +157,6 @@
 
 
 
-
-
-
 .slider_wrapper::before,
 .slider_wrapper::after{
   /* background: linear-gradient(to right, rgba(255,255,2551) 0%, rgba(255, 255,255,0) 100%); */
@@ -178,13 +170,6 @@
   left: 0;
   top: 0;
 }
-
-
-
-
-
-
-
 
 
 
