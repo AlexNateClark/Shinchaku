@@ -3,7 +3,7 @@ from flask import render_template, Flask
 app = Flask(__name__)
 
 
-@app.route('/index')
+@app.route('/init')
 def index():
     return render_template('initial_page.html') 
 
